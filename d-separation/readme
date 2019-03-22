@@ -1,0 +1,8 @@
+For the code d-separation.py:
+
+- In the command prompt, the command: Trinh_Wei.py ex2.txt 
+  will run the code using ex2.txt as a file input.
+  
+- The code outputs the results in the command prompt, with the format:
+	"For the query ______"
+	"The nodes that are d-separated from B are: ____"
