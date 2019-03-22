@@ -1,6 +1,6 @@
 For the code d-separation.py:
 
-- In the command prompt, the command: Trinh_Wei.py ex2.txt 
+- In the command prompt, the command: d-separation.py ex2.txt 
   will run the code using ex2.txt as a file input.
   
 - The code outputs the results in the command prompt, with the format:
