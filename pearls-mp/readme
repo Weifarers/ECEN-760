@@ -1,0 +1,21 @@
+Implementation of Pearl's Message Passing Algorithm for Bayesian Networks in Python.
+
+The structure file is s.txt: Contains the number of edges, the number of nodes, and the connections from Parent -> Child.
+
+The initial value file is iv.txt: Contains all the potential values of each node: A 1 0 means A can only take 1 or 0.
+
+The initial probability file is ip.txt: Contains all conditional probabilities that are given for each network.
+
+The functions are sorted as follows:
+
+node.py - Class file that contains a newly defined node object, which is used for each node in the network. Characteritzed by name, parents, children, and other features necessary for message passing.
+
+main.py - File for which code should be run. Will prompt users for files that describe the network, along with prompting users for nodes of interest and evidence.
+
+read.py - Reads in the structure, initial value, and initial probability files that describe the Bayesian Network.
+
+initialize.py - Initializes the Bayesian Network.
+
+update.py - Updates the Bayseian Network for every instantiated variable.
+
+send.py - Contains the functions necessary to send both lambda and pi messages.
